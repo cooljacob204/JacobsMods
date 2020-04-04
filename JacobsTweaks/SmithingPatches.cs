@@ -13,7 +13,8 @@ namespace JacobsTweaks
     {
         static void Postfix(ref int __result)
         {
-            __result /= 18;
+            int divisor = int.Parse(Settings.LoadSetting("ResearchPointsNeedForNewPartDivisor"));
+            __result /= divisor;
         }
     }
 }
