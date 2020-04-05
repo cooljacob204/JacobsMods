@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Settings.cs" />
+    <Compile Include="SmithingPatches.cs" />
     <Compile Include="SubModule.cs" />
     <Compile Include="XpPatches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
